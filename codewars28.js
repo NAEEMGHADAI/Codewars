@@ -17,17 +17,17 @@
 function dontGiveMeFive(start, end) {
 	let ans = [];
 	for (let index = start; index < end + 1; index++) {
-		// let ind = index.toString();
-		// if (!ind.includes("5")) {
-		// 	ans.push(index);
-		// }
-		if (index % 5 !== 0) {
+		let ind = index.toString();
+		if (!ind.includes("5")) {
 			ans.push(index);
-		} else {
-			if (index % 10 === 0) {
-				ans.push(index);
-			}
 		}
+		// if (index % 5 !== 0) {
+		// 	ans.push(index);
+		// } else {
+		// 	if (index % 10 === 0) {
+		// 		ans.push(index);
+		// 	}
+		// }
 	}
 	console.log(ans);
 	return ans.length;
