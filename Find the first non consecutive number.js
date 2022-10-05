@@ -1,3 +1,4 @@
+// Find the first non-consecutive number
 // Your task is to find the first element of an array that is not consecutive.
 
 // By not consecutive we mean not exactly 1 larger than the previous element of the array.
