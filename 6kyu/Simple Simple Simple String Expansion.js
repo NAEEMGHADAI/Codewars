@@ -12,7 +12,7 @@
 // "3d332f2a"  -->  "dddffaa"         # multiple consecutive digits: 3 * "d" + 2 * "f" + 2 * "a"
 // "abcde"     -->  "abcde"           # no digits
 // "1111"      -->  ""                # no characters to repeat
-// ""          -->  ""                # empty string
+// ""          -->  ""                # empty strings
 
 //Parameter: string containg number and string
 //Return: string
